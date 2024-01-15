@@ -3,5 +3,6 @@
     {"type": "file", "section": "File"},
     {"type": "histogram", "section": "Histogram"},
     {"type": "monochrome", "section": "Monochrome"},
+    {"type": "docs", "hidden": true}
   ]
 }
