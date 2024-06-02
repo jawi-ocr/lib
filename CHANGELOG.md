@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/jawi-ocr/lib/compare/v0.1.0...v0.2.0) (2024-06-02)
+
+
+### Image
+
+* New base64 png image encoder ([c64f516](https://github.com/jawi-ocr/lib/commit/c64f516ea9543b785950185c8db1e94a7a7c6faa))
+
 ## 0.1.0 (2024-01-15)
 
 
