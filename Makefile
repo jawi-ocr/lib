@@ -15,7 +15,6 @@ push:
 preview-%:
 	${STDV_PREVIEW} $*
 
-# git push --follow-tags origin heads/v0.2.0
 release-%: VERSION=$$(echo "v$$(${STDV_PREVIEW} $* | ${GET_VERSION})")
 release-%:
 	git checkout -b "release/$(VERSION)"
@@ -26,5 +25,5 @@ release-%:
 	@echo "const Version=\"$(VERSION)\"" >> $(VERSION_FILE)
 	git commit -am "release: $(VERSION)"
 	git push -u origin ${GIT_BRANCH}
-	${STDV_RELEASE} --release-as $*
-	#git push --follow-tags origin $(GIT_BRANCH)
+	${STDV_RELEASE} $*
+	git push --follow-tags origin $(GIT_BRANCH)
