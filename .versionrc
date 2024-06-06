@@ -1,6 +1,7 @@
 {
   "types": [
     {"type": "file", "section": "File"},
+    {"type": "filter", "section": "Filter"},
     {"type": "histogram", "section": "Histogram"},
     {"type": "image", "section": "Image"},
     {"type": "monochrome", "section": "Monochrome"},
