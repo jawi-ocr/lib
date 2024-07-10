@@ -20,14 +20,3 @@ func Encode(img image.Image) (string, error) {
 
 	return encoded, nil
 }
-
-func EncodeToBytes(img image.Image) ([]byte, error) {
-	buffer := new(bytes.Buffer)
-
-	if err := png.Encode(buffer, img); err != nil {
-		slog.Error("jawi-ocr/lib", "package", "image", "function", "EncodeToBytes")
-		return nil, err
-	}
-
-	return buffer.Bytes(), nil
-}
