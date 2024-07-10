@@ -20,7 +20,11 @@ var MonochromeModel color.Model = color.ModelFunc(monochromeModel)
 
 // MonochromeColor represents a 1-bit color.
 type MonochromeColor struct {
+	Pixel
+}
 
+func (c MonochromeColor) RGBA() (r, g, b, a uint32) {
+	return 0xffff, 0xffff, 0xffff, 0xffff
 }
 
 func (c Pixel) RGBA() (r, g, b, a uint32) {
