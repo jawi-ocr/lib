@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/jawi-ocr/lib/compare/v0.4.0...v0.5.0) (2024-07-11)
+
+
+### Features
+
+* **number:** New generic number data struct type ([bdfc4c2](https://github.com/jawi-ocr/lib/commit/bdfc4c2606771ea1b032d0a0c0e5cfbe1bf552ac))
+
 ## [0.4.0](https://github.com/jawi-ocr/lib/compare/v0.3.0...v0.4.0) (2024-07-10)
 
 
