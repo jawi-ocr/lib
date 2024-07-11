@@ -1,10 +1,12 @@
 {
   "types": [
+    {"type": "feat", "section": "Features"},
     {"type": "file", "section": "File"},
     {"type": "filter", "section": "Filter"},
     {"type": "histogram", "section": "Histogram"},
     {"type": "image", "section": "Image"},
     {"type": "monochrome", "section": "Monochrome"},
+    {"type": "number", "section": "Number"},
     {"type": "docs", "hidden": true}
   ]
 }
